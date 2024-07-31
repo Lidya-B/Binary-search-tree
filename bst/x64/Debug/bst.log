@@ -1,0 +1,101 @@
+﻿  bst.cpp
+C:\Users\belew\source\repos\bst\bst\bst.h(141,1): error C2665: 'Node<T>::Node': none of the 3 overloads could convert all the argument types
+          with
+          [
+              T=int
+          ]
+C:\Users\belew\source\repos\bst\bst\searchtree.h(13,1): message : could be 'Node<T>::Node(Node<T> &&)'
+          with
+          [
+              T=int
+          ]
+C:\Users\belew\source\repos\bst\bst\searchtree.h(13,1): message : or       'Node<T>::Node(const Node<T> &)'
+          with
+          [
+              T=int
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(141,27): message : 'Node<T>::Node(const Node<T> &)': cannot convert argument 1 from 'const T' to 'const Node<T> &'
+          with
+          [
+              T=int
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(141,1): message : Reason: cannot convert from 'const T' to 'const Node<T>'
+          with
+          [
+              T=int
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(141,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\belew\source\repos\bst\bst\searchtree.h(13,1): message : see declaration of 'Node<T>::Node'
+          with
+          [
+              T=int
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(141,1): message : while trying to match the argument list '(const T)'
+          with
+          [
+              T=int
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(138): message : while compiling class template member function 'void BinarySearchTree<int>::insert(Node<T> *&,const T &)'
+          with
+          [
+              T=int
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(72): message : see reference to function template instantiation 'void BinarySearchTree<int>::insert(Node<T> *&,const T &)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(47): message : while compiling class template member function 'BinarySearchTree<int>::BinarySearchTree(void)'
+C:\Users\belew\source\repos\bst\bst\bst.cpp(37): message : see reference to function template instantiation 'BinarySearchTree<int>::BinarySearchTree(void)' being compiled
+C:\Users\belew\source\repos\bst\bst\bst.cpp(37): message : see reference to class template instantiation 'BinarySearchTree<int>' being compiled
+C:\Users\belew\source\repos\bst\bst\bst.h(141,1): error C2665: 'Node<T>::Node': none of the 3 overloads could convert all the argument types
+          with
+          [
+              T=Stock
+          ]
+C:\Users\belew\source\repos\bst\bst\searchtree.h(13,1): message : could be 'Node<T>::Node(Node<T> &&)'
+          with
+          [
+              T=Stock
+          ]
+C:\Users\belew\source\repos\bst\bst\searchtree.h(13,1): message : or       'Node<T>::Node(const Node<T> &)'
+          with
+          [
+              T=Stock
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(141,27): message : 'Node<T>::Node(const Node<T> &)': cannot convert argument 1 from 'const T' to 'const Node<T> &'
+          with
+          [
+              T=Stock
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(141,1): message : Reason: cannot convert from 'const T' to 'const Node<T>'
+          with
+          [
+              T=Stock
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(141,28): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\belew\source\repos\bst\bst\searchtree.h(13,1): message : see declaration of 'Node<T>::Node'
+          with
+          [
+              T=Stock
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(141,1): message : while trying to match the argument list '(const T)'
+          with
+          [
+              T=Stock
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(138): message : while compiling class template member function 'void BinarySearchTree<Stock>::insert(Node<T> *&,const T &)'
+          with
+          [
+              T=Stock
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(72): message : see reference to function template instantiation 'void BinarySearchTree<Stock>::insert(Node<T> *&,const T &)' being compiled
+          with
+          [
+              T=Stock
+          ]
+C:\Users\belew\source\repos\bst\bst\bst.h(47): message : while compiling class template member function 'BinarySearchTree<Stock>::BinarySearchTree(void)'
+C:\Users\belew\source\repos\bst\bst\bst.cpp(61): message : see reference to function template instantiation 'BinarySearchTree<Stock>::BinarySearchTree(void)' being compiled
+C:\Users\belew\source\repos\bst\bst\bst.cpp(61): message : see reference to class template instantiation 'BinarySearchTree<Stock>' being compiled
+  stock.cpp
+  Generating Code...
